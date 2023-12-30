@@ -1,0 +1,126 @@
+* {
+  background-color: rgb(0, 0, 19);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  scroll-behavior: smooth;
+}
+#home,
+#about,
+#skills,
+#projects,
+#contact {
+  padding-top: 75px; /* Adjust the value as needed */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.logo > img {
+  height: 70px;
+}
+
+.nav-links {
+  width: 45%;
+  font-weight: 600;
+}
+.nav-links-a {
+  text-decoration: none;
+  margin: 6px;
+  transition: 0.3s;
+  margin-right: 40px;
+}
+.nav-links-a:hover {
+  color: rgb(128, 233, 80);
+}
+#home{
+    padding-top: 65px;
+}
+#home-main {
+  display: flex;
+}
+#home-main > div {
+  width: 50%;
+  margin: 0px 4vmax 0 4vmax;
+}
+#home-main > div > h1 {
+  font-size: xxx-large;
+}
+#home-main > div > h3 {
+  font-weight: 400;
+  color: grey;
+  margin-top: 5vmax;
+  width: 85%;
+  text-align: center;
+}
+#home-main > div:nth-child(2) {
+  display: flex;
+  justify-content: end;
+}
+#home-main > div > img {
+  width: 450px;
+}
+.resume-div {
+    text-align: center;
+    margin-top: 1vmax;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
+.resume-link {
+  text-decoration: none;
+  color: greenyellow;
+}
+#follow-me-div {
+  display: flex;
+  margin-top: 1.5vmax;
+  justify-content: space-evenly;
+}
+#about {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 6vmax;
+  height: 63vh;
+}
+#about-main > h1 {
+  text-align: center;
+}
+#about-main > p {
+  font-weight: 100;
+  margin: 4vmax;
+  font-size: 30px;
+}
+#skills {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 6vmax;
+}
+#skills > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vmax;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills > div > img {
+  margin: 2rem;
+}
