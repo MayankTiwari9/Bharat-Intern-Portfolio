@@ -124,3 +124,64 @@
 #skills > div > img {
   margin: 2rem;
 }
+#projects{
+  text-align: center;
+}
+#projects > h1{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#projects-main{
+  display: flex;
+    flex-wrap: wrap;
+    margin: 5vmax;
+    justify-content: center;
+}
+.projects-description{
+  width: 30%;
+  border: 2px solid grey;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+}
+.projects-image > img {
+  width: 340px;
+  height: 160px;
+}
+.project-info{
+  font-size: 13px;
+}
+.project-info > p{
+  color: grey;
+    padding: 10px 0px 10px 0px;
+}
+.project-stack{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  column-gap: 12px;
+  margin: 10px;
+}
+.project-stack  div{
+  width: 90px;
+  border: 1px solid;
+  border-radius: 6px;
+  height: 2vmax;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.project-link{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 12px;
+    margin: 10px;
+}
+.project-link > a{
+  text-decoration: none;
+}
