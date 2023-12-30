@@ -185,3 +185,175 @@
 .project-link > a{
   text-decoration: none;
 }
+#contact > h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+#contact-form{
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#contact-form > div{
+  display: flex;
+  flex-direction: column;
+}
+#contact-form > div > label{
+  color: white;
+  margin: 0.5rem;  
+}
+#contact-form > div > input{
+  width: 100%;
+  border-radius: 5px;
+  color: grey;
+  border: 1px solid grey;
+  border-width: 400;
+  background: transparent;
+  padding: 0.5rem;
+  outline: none;
+}
+#contact-form > div > textarea{
+  width: 100%;
+  border-radius: 5px;
+  color: grey;
+  border: 1px solid grey;
+  border-width: 400;
+  background: transparent;
+  padding: 0.5rem;
+  outline: none;
+}
+#contact-form > button{
+  background-color: rgb(132,204,22);
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1rem;
+  width: 150px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {   
+  .nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    position: relative;
+  }
+  .logo {
+    font-size: 8px;
+  }
+  .logo > img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    width: 45%;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .nav-links-a {
+    text-decoration: none;
+    margin: 6px;
+    transition: 0.3s;
+    margin-right: 40px;
+  }
+  .nav-links-a:hover {
+    color: rgb(128, 233, 80);
+  }
+  #home{
+      padding-top: 65px;
+  }
+  #home-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #home-main > div {
+    width: 90%;
+    margin: 0px 4vmax 0 4vmax;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #home-main > div > h1 {
+    font-size: 26px;
+  }
+  #home-main > div:nth-child(2) {
+    display: flex;
+    justify-content: end;
+  }
+  #home-main > div > img {
+    width: 350px;
+  }
+  .resume-div {
+    margin-top: 2vmax;
+  }
+  #follow-me-div {
+    display: flex;
+    margin-top: 4vmax;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #about {
+    width: 90%;
+  }
+  #about-main > p {
+    font-weight: 100;
+    margin: 4vmax;
+    font-size: 22px;
+  }
+  #skills {
+    width: 90%;
+  }
+  #skills > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vmax;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #skills > div > img {
+    margin: 2rem;
+  }
+  #projects{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #projects > h1{
+    width: 90%;
+  }
+  #projects-main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .projects-description{
+    width: 100%;
+  }
+  .projects-image > img {
+    width: 310px;
+    height: 160px;
+  }
+  .project-info{
+    font-size: 16px;
+  }
+  .project-stack  div{
+    width: 120px;
+    height: 4vmax;
+  }
+  #contact-form{
+    width: 100%;
+    padding: 30px;
+    
+  }
+}
